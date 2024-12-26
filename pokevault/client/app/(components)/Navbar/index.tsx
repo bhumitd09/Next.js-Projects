@@ -1,5 +1,5 @@
 "use client";
-
+import {Menu} from "lucide-react";
 import React from 'react'
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
             onClick={() => {}}
             >
 
-            
+            <Menu className= "w-4 h-4" /> 
             </button>
         </div>
        </div>
